@@ -1,14 +1,20 @@
-HACKATHON
-This repository contains the code and assets developed for a hackathon project. It features web technologies such as HTML, CSS, and JavaScript.
+# Hackathon — quiz de cibersegurança
 
-Features
-Frontend implementation using HTML (66.8%), CSS (27.3%), and JavaScript (5.9%)
-Includes a folder with images (img directory)
-Structured for easy navigation and future updates
-Contributors
-kevinnlucas
-Micel357
-marialuisamatos
-vitorsantabi
-Usage
-Clone the repository and open index.html in a browser to explore the project
+Projeto web em HTML, CSS e JavaScript criado durante um hackathon.
+
+## Estrutura
+
+```text
+.
+├── index.html              # Página principal
+├── src/
+│   ├── quiz.js             # Lógica do quiz principal
+│   └── styles/             # Estilos principal e alternativo
+├── assets/                 # Imagens da página principal
+├── legacy/                 # Versão anterior preservada
+└── README.md
+```
+
+Abra `index.html` em um navegador para executar o quiz principal. A versão anterior foi preservada em `legacy/Quest1.html`; ela já referenciava um `node.js` ausente no repositório, portanto pode não funcionar por completo.
+
+Participantes: kevinnlucas, Micel357, marialuisamatos e vitorsantabi.
